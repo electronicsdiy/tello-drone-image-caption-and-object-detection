@@ -1,5 +1,8 @@
 # tello-drone-image-caption-and-object-detection
 
+<img width="1416" alt="github_pic" src="https://user-images.githubusercontent.com/87643752/128824725-aaf3fabb-2f2b-47a5-8982-a23e592e6346.png">
+
+
 ## **使い方** 
 
 1. このリポジトリの資源をgit cloneしたノートPCを、TelloにWifi接速する。
