@@ -1,6 +1,6 @@
 # tello-drone-image-caption-and-object-detection
 
-#__使い方__ 
+__使い方__ 
 
 1. このリポジトリの資源をgit cloneしたノートPCを、TelloにWifi接速する。
 2. __*examples*ディレクトリ__に移動して、Python3系で、__*tello_camera_image_captioned_description_window.py*__を実行する。
@@ -8,14 +8,16 @@
 > % python3 tello_camera_image_captioned_description_window.py
 
 
-##1. Telloドローンのキーボード操作
+1. Telloドローンのキーボード操作
 
 __DJITelloPyライブラリ__を利用して、TelloとWifi接続したノートPCからキーボード操作でTelloを操作します。
 __DJITelloPyライブラリ__を使うことで、Tello内蔵の単眼カメラが捉えた映像データを、ノートPC側でリアルタイムに受信します。
 
-#__事前準備__
+- https://github.com/damiafuentes/DJITelloPy
 
-##2. フレーム画像の説明（キャプション）文生成
+__事前準備__
+
+2. フレーム画像の説明（キャプション）文生成
 
 Telloからコントローラー（PC）に送られてくる各瞬間のフレーム画像（numpy行列オブジェクト）から、画像の説明文を得るデータ処理は、次のリポジトリの実装コードを利用しています。
 
@@ -23,7 +25,7 @@ Telloからコントローラー（PC）に送られてくる各瞬間のフレ�
 
 このリポジトリの解説に従って、学習済みのモデルファイルをダウンロードして、所定のディレクトリに格納する必要があります。
 
-###資源のダウンロード
+資源のダウンロード
 
 1. 以下から学習済みのモデルファイルをダウンロードし、ファイル名を変更後、example/modelsの直下に格納してください。
 
