@@ -31,20 +31,17 @@ TelloとWifi回線でつながっているノートPCのキーボードから、
 
 ※ ファイル名は。**frame_img_shot_XXXX年XX月XX日XX/XX/XX.jpg**です。最後はhour, minutes, ミリ秒です。
 
-また、ノートPCにWindowが１つ立ち上がり、左右2画面に分割されたWindowが立ち上がります。
+### 2. 飛行中のTelloカメラ画像のウィドウ表示（左右２画面）
 
-Telloのキーボード操作と画像受信の処理は、**DJITelloPyライブラリ**を使います。
+離陸前から、ノートPCにWindowが１つ立ち上がり、画面の左側にTelloから受信したカメラ画像（原画像）が表示され、右側には、画像の内容を説明した英文が表示されます。
 
-- https://github.com/damiafuentes/DJITelloPy
-
-ノートPCにWindowが１つ立ち上がる画面は、左右2画面に分かれています。
-
-・ **左画面**： 各瞬間のフレーム画像の内容を説明した英文が、背景黒地の画面に白文字で表示。
-・ **右画面**： Telloから受信したフレーム画像の上に、検出された物体を四角（矩形）の枠で囲み、オブジェクト名を英単語で書かれます。また、Telloの現在高度が表示される。
-
-Telloから受け取った各瞬間のフレーム画像の内容を説明する文を、PC側で出力する処理は、次のリポジトリの資材を利用します。
+右画面に出力される画像の説明文は、次のリポジトリの資材を利用します。
 
 - https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning
+
+画面の左側に表示されるTelloカメラ画像の受信は、**DJITelloPyライブラリ**を使います。
+
+- https://github.com/damiafuentes/DJITelloPy
 
 ## __事前準備__
 
