@@ -35,7 +35,7 @@ TelloとWifi回線でつながっているノートPCのキーボードから、
 
 離陸前から、ノートPCにWindowが１つ立ち上がり、画面の左側にTelloから受信したカメラ画像（原画像）が表示され、右側には、画像の内容を説明した英文が表示されます。
 
-右画面に出力される画像の説明文は、次のリポジトリの資材を利用します。
+右画面に出力される説明文は、次のリポジトリの資材を利用します。
 
 - https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning
 
