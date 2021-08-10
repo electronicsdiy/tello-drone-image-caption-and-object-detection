@@ -8,7 +8,7 @@
 > % python3 tello_camera_image_captioned_description_window.py
 
 
-1. Telloドローンのキーボード操作
+####1. Telloドローンのキーボード操作
 
 TelloとWifi回線でつながっているノートPCのキーボードから、Telloを操作します。
 また、ノートPCにWindowが１つ立ち上がり、左右2画面に分割されたWindowが立ち上がります。
@@ -28,15 +28,12 @@ Telloから受け取った各瞬間のフレーム画像の内容を説明する
 
 ## __事前準備__
 
-2. フレーム画像の説明（キャプション）文生成
+####資源のダウンロード
 
-Telloからコントローラー（PC）に送られてくる各瞬間のフレーム画像（numpy行列オブジェクト）から、画像の説明文を得るデータ処理は、次のリポジトリの実装コードを利用しています。
+画像のキャプション文を生成する処理を行うために、借用した次のリポジトリの指示通り、学習済みのモデルとボキャブラリファイルをdropboxからダウンロードして、
+指定されたディレクトリに格納します。
 
 - https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning
-
-このリポジトリの解説に従って、学習済みのモデルファイルをダウンロードして、所定のディレクトリに格納する必要があります。
-
-資源のダウンロード
 
 1. 以下から学習済みのモデルファイルをダウンロードし、ファイル名を変更後、example/modelsの直下に格納してください。
 
@@ -45,7 +42,7 @@ Telloからコントローラー（PC）に送られてくる各瞬間のフレ�
 
 https://www.dropbox.com/s/ne0ixz5d58ccbbz/pretrained_model.zip?dl=0
 
-（ファイル名の変更方法）
+ファイル名の変更
 
 encoder-5-3000.pkl → encoder-2-1000.ckpt
 decoder-5-3000.pkl → decoder-2-1000.ckpt
