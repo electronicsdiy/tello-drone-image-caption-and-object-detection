@@ -25,9 +25,10 @@ TelloとWifi回線でつながっているノートPCのキーボードから、
 * r :  上昇
 * f :  降下
 * g : 着地
-* p : フレーム画像のファイル保存（※１）
+* p : フレーム画像のファイル保存（※）
 
-※１： 画像ファイルは、カレントディレクトリ（exampleディレクトリ直下）に出力されます。ファイル名は。**frame_img_shot_XXXX年XX月XX日XX/XX/XX.jpg**です。最後はhour, minutes, ミリ秒です。
+※ 画像ファイルは、カレントディレクトリ（exampleディレクトリ直下）に出力されます。
+* ファイル名は。**frame_img_shot_XXXX年XX月XX日XX/XX/XX.jpg**です。最後はhour, minutes, ミリ秒です。
 
 また、ノートPCにWindowが１つ立ち上がり、左右2画面に分割されたWindowが立ち上がります。
 
