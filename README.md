@@ -53,7 +53,7 @@ TelloとWifi回線でつながっているノートPCのキーボードから、
 
 画像のキャプション文を生成する処理は、次のリポジトリの資源を借用しています。
 次のリポジトリの指示通り、DropBoxから学習済みのモデルとボキャブラリファイルをダウンロードしてください。
-ダウンロードしたファイルは、次の述べるディレクトリへの格納をお願いします。
+ダウンロード後、次に述べるディレクトリに格納します。
 
 - https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning
 
