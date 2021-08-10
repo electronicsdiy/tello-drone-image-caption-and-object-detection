@@ -1,6 +1,6 @@
 # tello-drone-image-caption-and-object-detection
 
-__使い方__ 
+##__使い方__ 
 
 1. このリポジトリの資源をgit cloneしたノートPCを、TelloにWifi接速する。
 2. *examples*ディレクトリに移動して、Python3系で、__*tello_camera_image_captioned_description_window.py*__を実行する。
@@ -15,7 +15,7 @@ __DJITelloPyライブラリ__を使うことで、Tello内蔵の単眼カメラ�
 
 - https://github.com/damiafuentes/DJITelloPy
 
-__事前準備__
+##__事前準備__
 
 2. フレーム画像の説明（キャプション）文生成
 
