@@ -1,21 +1,32 @@
 # tello-drone-image-caption-and-object-detection
 
-##__使い方__ 
+## **使い方** 
 
 1. このリポジトリの資源をgit cloneしたノートPCを、TelloにWifi接速する。
-2. *examples*ディレクトリに移動して、Python3系で、__*tello_camera_image_captioned_description_window.py*__を実行する。
+2. **examplesディレクトリ**に移動して、Python3系で、**tello_camera_image_captioned_description_window.py**を実行する。
 
 > % python3 tello_camera_image_captioned_description_window.py
 
 
 1. Telloドローンのキーボード操作
 
-__DJITelloPyライブラリ__を利用して、TelloとWifi接続したノートPCからキーボード操作でTelloを操作します。
-__DJITelloPyライブラリ__を使うことで、Tello内蔵の単眼カメラが捉えた映像データを、ノートPC側でリアルタイムに受信します。
+TelloとWifi回線でつながっているノートPCのキーボードから、Telloを操作します。
+また、ノートPCにWindowが１つ立ち上がり、左右2画面に分割されたWindowが立ち上がります。
+
+Telloのキーボード操作と画像受信の処理は、**DJITelloPyライブラリ**を使います。
 
 - https://github.com/damiafuentes/DJITelloPy
 
-##__事前準備__
+ノートPCにWindowが１つ立ち上がる画面は、左右2画面に分かれています。
+
+・ **左画面**： 各瞬間のフレーム画像の内容を説明した英文が、背景黒地の画面に白文字で表示。
+・ **右画面**： Telloから受信したフレーム画像の上に、検出された物体を四角（矩形）の枠で囲み、オブジェクト名を英単語で書かれます。また、Telloの現在高度が表示される。
+
+Telloから受け取った各瞬間のフレーム画像の内容を説明する文を、PC側で出力する処理は、次のリポジトリの資材を利用します。
+
+- https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning
+
+## __事前準備__
 
 2. フレーム画像の説明（キャプション）文生成
 
