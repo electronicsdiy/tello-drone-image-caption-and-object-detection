@@ -3,7 +3,7 @@
 __使い方__ 
 
 1. このリポジトリの資源をgit cloneしたノートPCを、TelloにWifi接速する。
-2. __*examples*ディレクトリ__に移動して、Python3系で、__*tello_camera_image_captioned_description_window.py*__を実行する。
+2. *examples*ディレクトリに移動して、Python3系で、__*tello_camera_image_captioned_description_window.py*__を実行する。
 
 > % python3 tello_camera_image_captioned_description_window.py
 
