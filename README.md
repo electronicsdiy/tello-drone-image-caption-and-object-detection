@@ -29,7 +29,7 @@ TelloとWifi回線でつながっているノートPCのキーボードから、
 
 ※ 画像ファイルは、カレントディレクトリ（exampleディレクトリ直下）に出力されます。
 
-※ ファイル名は。**frame_img_shot_XXXX年XX月XX日XX/XX/XX.jpg**です。最後はhour, minutes, ミリ秒です。
+※ ファイル名は、**frame_img_shot_XXXX年XX月XX日XX/XX/XX.jpg**です。最後はhour, minutes, ミリ秒です。
 
 ### 2. Telloカメラ画像のウィドウ表示（左右２画面）
 
