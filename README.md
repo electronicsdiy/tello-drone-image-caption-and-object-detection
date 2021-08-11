@@ -2,6 +2,9 @@
 
 <img width="1416" alt="github_pic" src="https://user-images.githubusercontent.com/87643752/128824725-aaf3fabb-2f2b-47a5-8982-a23e592e6346.png">
 
+###解説記事
+
+**[ドローン一人称視点カメラ画像の内容説明文と、画面内の検出物体の色枠表示と人物検出人数をリアルタイムにモニタ表示するコード](https://qiita.com/electronics_diy721/items/97c5ddec55fd2049ff99)**
 
 ## **使い方** 
 
